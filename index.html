@@ -1,0 +1,637 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zahra Zare Portfolio</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!--//fonts-->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="#"><img src="images/zzare.png" alt=" " /></a>
+                </div>
+                <div class="top-nav">
+                    <span class="menu"> </span>
+                    <ul>
+                        <li class="active"><a href="#" class="scroll">Home<label class="line"> </label></a></li>
+                        <li><a href="#about" class="scroll">About<label class="line"> </label></a></li>
+                        <li><a href="#services" class="scroll">Services<label class="line in-line"> </label></a></li>
+                        <li><a href="#portfolio" class="scroll">Portfolio<label class="line line-in"> </label></a></li>
+                        <li><a href="#test" class="scroll">Testimonials<label class="line line-in-in"> </label></a></li>
+                        <li><a href="#contact" class="scroll">Contact <label class="line in-line"> </label></a></li>
+                    </ul>
+                    <!-- script-nav -->
+                    <script>
+                        $("span.menu").click(function() {
+                            $(".top-nav ul").slideToggle(500, function() {});
+                        });
+                    </script>
+                    </script>
+                    <script type="text/javascript">
+                        jQuery(document).ready(function($) {
+                            $(".scroll").click(function(event) {
+                                event.preventDefault();
+                                $('html,body').animate({
+                                    scrollTop: $(this.hash).offset().top
+                                }, 1000);
+                            });
+                        });
+                    </script>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="header-matter">
+                <h2> <span style="color:#E91E63">I <3 </span><span>DEV</span></h2>
+                <p style="color:mintcream">I am an Iran based Software Developer with working knowledge on <span>UI</span> and <span>PHP development</span></p>
+                <a href="#about" class="scroll"><img src="images/down.png" class="scroll" alt="" /></a>
+            </div>
+        </div>
+    </div>
+    <!--content-->
+    <div class="content">
+        <div class="container">
+            <div class="about" id="about">
+                <div class="about-left">
+                    <img class="red" src="images/tv.png" alt="" />
+                </div>
+                <div class="about-left left-about">
+                    <small>ABOUT ME</small>
+                    <h3><span>Some</span> words about me</h3>
+                    <p>I love designing and building software through my specific skills.</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <label> </label>Mission -<i> Uniqueness and Quality of Development</i></a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <label> </label>Skills -<i> Delivering Fast</i></a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <label> </label>Clients -<i>  Coding Skills</i></a>
+                        </li>
+                    </ul>
+                    <a href="#" class="browse"><img src="images/br.png" alt="" />Browse our work</a>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!---->
+        <div class="team">
+            <div class="container">
+                <h3>Meet <span>our team</span></h3>
+                <img src="images/li-in.png" alt="" />
+                <!---->
+                <!-- requried-jsfiles-for owl -->
+                <link href="css/owl.carousel.css" rel="stylesheet">
+                <script src="js/owl.carousel.js"></script>
+                <script>
+                    $(document).ready(function() {
+                        $("#owl-demo").owlCarousel({
+                            items: 1,
+                            lazyLoad: false,
+                            autoPlay: true,
+                            navigation: false,
+                            navigationText: false,
+                            pagination: true,
+                        });
+                    });
+                </script>
+
+                <!-- //requried-jsfiles-for owl -->
+                <!-- start content_slider -->
+                <div id="owl-demo" class="owl-carousel">
+                    <div class="item">
+                        <div class=" item-in">
+                            <img class="five" src="images/p1.jpg" alt="" />
+                            <h6>Jet Li</h6>
+                            <small>Contrary to popular</small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class=" item-in into">
+                            <img class="five" src="images/p2.jpg" alt="" />
+                            <h6>Scott adkins</h6>
+                            <small>Sed ut perspiciatis unde</small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class=" item-in onto">
+                            <img class="five" src="images/p3.jpg" alt="" />
+                            <h6>Sylvester Stallone</h6>
+                            <small>Nemo enim ipsam voluptatem</small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class=" item-in into">
+                            <img class="five" src="images/p4.jpg" alt="" />
+                            <h6>Van Damme</h6>
+                            <small>At vero eos et accusamus et </small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="item">
+                        <div class=" item-in">
+                            <img class="five" src="images/p1.jpg" alt="" />
+                            <h6>Jet Li</h6>
+                            <small>Contrary to popular</small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class=" item-in into">
+                            <img class="five" src="images/p2.jpg" alt="" />
+                            <h6>Scott adkins</h6>
+                            <small>Sed ut perspiciatis unde</small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class=" item-in onto">
+                            <img class="five" src="images/p3.jpg" alt="" />
+                            <h6>Sylvester Stallone</h6>
+                            <small>Nemo enim ipsam voluptatem</small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class=" item-in into">
+                            <img class="five" src="images/p4.jpg" alt="" />
+                            <h6>Van Damme</h6>
+                            <small>At vero eos et accusamus et </small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="item">
+                        <div class=" item-in">
+                            <img class="five" src="images/p1.jpg" alt="" />
+                            <h6>Jet Li</h6>
+                            <small>Contrary to popular</small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class=" item-in into">
+                            <img class="five" src="images/p2.jpg" alt="" />
+                            <h6>Scott adkins</h6>
+                            <small>Sed ut perspiciatis unde</small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class=" item-in onto">
+                            <img class="five" src="images/p3.jpg" alt="" />
+                            <h6>Sylvester Stallone</h6>
+                            <small>Nemo enim ipsam voluptatem</small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class=" item-in into">
+                            <img class="five" src="images/p4.jpg" alt="" />
+                            <h6>Van Damme</h6>
+                            <small>At vero eos et accusamus et </small>
+                            <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div class="services" id="services">
+            <div class="container">
+                <div class="services-grid">
+                    <h3>take a look at <span>our services </span></h3>
+                    <img src="images/li-in.png" alt="" />
+                    <p><i>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</i></p>
+                </div>
+                <div class="ser-grid">
+                    <div class="col-md-3 ser-in">
+                        <a href="#"><span> </span></a>
+                        <h6>Web design</h6>
+                        <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    </div>
+                    <div class="col-md-3 ser-in">
+                        <a href="#"><span class="mobile"> </span></a>
+                        <h6>Web design</h6>
+                        <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    </div>
+                    <div class="col-md-3 ser-in">
+                        <a href="#"><span class="camera"> </span></a>
+                        <h6>Web design</h6>
+                        <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    </div>
+                    <div class="col-md-3 ser-in">
+                        <a href="#"><span class="mike"> </span></a>
+                        <h6>Web design</h6>
+                        <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div class="clients">
+            <div class="container">
+                <h3>SOME OF OUR <span>CLIENTS</span></h3>
+                <img src="images/li-in.png" alt="" />
+                <!---->
+                <!-- requried-jsfiles-for owl -->
+                <script>
+                    $(document).ready(function() {
+                        $("#owl-demo1").owlCarousel({
+                            items: 1,
+                            lazyLoad: false,
+                            autoPlay: true,
+                            navigation: false,
+                            navigationText: false,
+                            pagination: true,
+                        });
+                    });
+                </script>
+                <!-- //requried-jsfiles-for owl -->
+                <!-- start content_slider -->
+                <div id="owl-demo1" class="owl-carousel">
+                    <div class="item-left">
+                        <a href="#"><img class="channel" src="images/ch.png" alt="" /></a>
+                        <a href="#"><img class="channel" src="images/za.png" alt="" /></a>
+                        <a href="#"><img class="channel in-onto" src="images/ga.png" alt="" /></a>
+                        <a href="#"><img class="channel in-onto" src="images/la.png" alt="" /></a>
+                        <a href="#"><img class="channel into-in" src="images/lc.png" alt="" /></a>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="item-left">
+                        <a href="#"><img class="channel" src="images/ch.png" alt="" /></a>
+                        <a href="#"><img class="channel" src="images/za.png" alt="" /></a>
+                        <a href="#"><img class="channel in-onto" src="images/ga.png" alt="" /></a>
+                        <a href="#"><img class="channel in-onto" src="images/la.png" alt="" /></a>
+                        <a href="#"><img class="channel into-in" src="images/lc.png" alt="" /></a>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="item-left">
+                        <a href="#"><img class="channel" src="images/ch.png" alt="" /></a>
+                        <a href="#"><img class="channel" src="images/za.png" alt="" /></a>
+                        <a href="#"><img class="channel in-onto" src="images/ga.png" alt="" /></a>
+                        <a href="#"><img class="channel in-onto" src="images/la.png" alt="" /></a>
+                        <a href="#"><img class="channel into-in" src="images/lc.png" alt="" /></a>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div class="portfolio-top" id="portfolio">
+            <div class="container">
+                <div class="portfolio-grid">
+                    <h3>take a look at <span>our work </span></h3>
+                    <img src="images/li-in.png" alt="" />
+                    <p><i>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</i></p>
+                </div>
+                <div class="photo">
+                    <div class="by-type">
+                        <h6>Filter by type</h6>
+                    </div>
+                    <ul id="filters">
+                        <li><span class="filter active" data-filter="app card icon web">All</span>
+                            <label>|</label>
+                        </li>
+                        <li><span class="filter" data-filter="app"> Web design</span>
+                            <label>|</label>
+                        </li>
+                        <li><span class="filter" data-filter="card"> Mobile design  </span>
+                            <label>|</label>
+                        </li>
+                        <li><span class="filter" data-filter="icon"> Photograpy</span></li>
+                    </ul>
+                    <div class="clearfix"> </div>
+                </div>
+                <div id="portfoliolist">
+                    <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper ">
+                            <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon">
+                                <img class="img-responsive" src="images/men.jpg" alt="" />
+                            </a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper">
+                            <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon ">
+                                <img class="img-responsive" src="images/men.jpg" alt="" /></a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper">
+                            <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon ">
+                                <img class="img-responsive" src="images/men.jpg" alt="" /></a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper ">
+                            <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon ">
+                                <img class="img-responsive" src="images/men.jpg" alt="" /></a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper ">
+                            <a href="#" class="b-link-stripe b-animate-go  thickbox play-icon ">
+                                <img class="img-responsive" src="images/danger.jpg" alt="" /></a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper">
+                            <a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon ">
+                                <img class="img-responsive" src="images/danger.jpg" alt="" />
+                            </a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper">
+                            <a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon ">
+                                <img class="img-responsive" src="images/danger.jpg" alt="" />
+                            </a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper">
+                            <a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon ">
+                                <img class="img-responsive" src="images/danger.jpg" alt="" />
+                            </a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper">
+                            <a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon ">
+                                <img class="img-responsive" src="images/phone.jpg" alt="" />
+                            </a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper">
+                            <a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon ">
+                                <img class="img-responsive" src="images/phone.jpg" alt="" />
+                            </a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper">
+                            <a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon ">
+                                <img class="img-responsive" src="images/phone.jpg" alt="" />
+                            </a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper">
+                            <a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon ">
+                                <img class="img-responsive" src="images/phone.jpg" alt="" />
+                            </a>
+                            <div class="simple">
+                                <h5>Trend and fashion</h5>
+                                <p>Website design</p>
+                                <label> </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <!-- Script for gallery Here -->
+                <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+                <script type="text/javascript">
+                    $(function() {
+
+                        var filterList = {
+
+                            init: function() {
+
+                                // MixItUp plugin
+                                // http://mixitup.io
+                                $('#portfoliolist').mixitup({
+                                    targetSelector: '.portfolio',
+                                    filterSelector: '.filter',
+                                    effects: ['fade'],
+                                    easing: 'snap',
+                                    // call the hover effect
+                                    onMixEnd: filterList.hoverEffect()
+                                });
+
+                            },
+
+                            hoverEffect: function() {
+
+                                // Simple parallax effect
+                                $('#portfoliolist .portfolio').hover(
+                                    function() {
+                                        $(this).find('.label').stop().animate({
+                                            bottom: 0
+                                        }, 200, 'easeOutQuad');
+                                        $(this).find('img').stop().animate({
+                                            top: -30
+                                        }, 500, 'easeOutQuad');
+                                    },
+                                    function() {
+                                        $(this).find('.label').stop().animate({
+                                            bottom: -40
+                                        }, 200, 'easeInQuad');
+                                        $(this).find('img').stop().animate({
+                                            top: 0
+                                        }, 300, 'easeOutQuad');
+                                    }
+                                );
+
+                            }
+
+                        };
+
+                        // Run the show!
+                        filterList.init();
+                    });
+                </script>
+                <!-- Gallery Script Ends -->
+            </div>
+        </div>
+        <!---->
+        <div class="test" id="test">
+            <div class="container">
+                <h3>our clients' <span>testimonials </span></h3>
+                <img src="images/li-in.png" alt="" />
+                <!---->
+                <!-- requried-jsfiles-for owl -->
+                <script>
+                    $(document).ready(function() {
+                        $("#owl-demo2").owlCarousel({
+                            items: 1,
+                            lazyLoad: false,
+                            autoPlay: true,
+                            navigation: false,
+                            navigationText: false,
+                            pagination: true,
+                        });
+                    });
+                </script>
+                <!-- //requried-jsfiles-for owl -->
+                <!-- start content_slider -->
+                <div id="owl-demo2" class="owl-carousel">
+                    <div class="item-bottom">
+                        <div class="item-right">
+                            <p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                            <span>Dean Martin, <label>CEO Acme Inc.</label></span>
+                        </div>
+                    </div>
+                    <div class="item-bottom">
+                        <div class="item-right">
+                            <p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                            <span>Dean Martin, <label>CEO Acme Inc.</label></span>
+                        </div>
+                    </div>
+                    <div class="item-bottom">
+                        <div class="item-right">
+                            <p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                            <span>Dean Martin, <label>CEO Acme Inc.</label></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <h3>feel free to <span>contact me </span></h3>
+                <img src="images/li-in.png" alt="" />
+                <p><i>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</i></p>
+            </div>
+            <form>
+                <div class="grid-contact">
+                    <div class="col-md-6 contact-left">
+                        <p class="your-para"> Name<span>*</span></p>
+                        <input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+                    </div>
+                    <div class="col-md-6 contact-left">
+                        <p class="your-para"> Email address<span>*</span></p>
+                        <input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+                    </div>
+                </div>
+                <p class="message-para">Message<span>*</span></p>
+                <textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+                <div class="send">
+                    <input type="submit" value="SEND">
+                </div>
+                <div class="clearfix"> </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-class">
+                <p class="footer-grid">&copy; 2014 Template by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+                <ul class="social-ic-icons">
+                    <li class="facebook"><a href="#"><span> </span></a></li>
+                    <li class="twitter"><a href="#"><span> </span></a></li>
+                    <li class="gmail"><a href="#"><span> </span></a></li>
+                    <li class="inline"><a href="#"><span> </span></a></li>
+                    <li class="browser"><a href="#"><span> </span></a></li>
+                </ul>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                /*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear'
+					 		};
+							*/
+
+                $().UItoTop({
+                    easingType: 'easeOutQuart'
+                });
+
+            });
+        </script>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    </div>
+
+</body>
+
+</html>
